@@ -38,27 +38,31 @@ layout: default
 
 <!-- submitted paper -->
 <div>
+  {% for submission in site.data.submitted %}
+  <div class="spacer50" id=""></div>
+  <h5>{{submission.year}}</h5>
+  <hr id="{{submission.uniqueId}}" />
   <div class="row publication_content">
     <div class="col-lg-2">
-      <img class="icon" src="{{site.data.submitted.label1}}" />
-      <img class="icon" src="{{site.data.submitted.label2}}" />
+      <img class="icon" src="{{submission.label1}}" />
+      <img class="icon" src="{{submission.label2}}" />
     </div>
     <div class="col-lg-1"></div>
     <div class="col-lg-8">
-      <p>
-        <span id="author">{{site.data.submitted.author}} </span
-        ><span id="title">{{site.data.submitted.title}}</span>
+      <p id="content">
+        <span id="author">{{submission.author}}</span
+        ><span id="title">{{submission.title}}</span>
       </p>
-      <div id="{{site.data.submitted.group}}">
+      <div id="{{submission.group}}">
         <p>
           <a
             class="btn btn-outline-secondary"
             id="button"
             data-bs-toggle="collapse"
-            href="{{site.data.submitted.ahref}}"
+            href="{{submission.ahref}}"
             role="button"
             aria-expanded="false"
-            aria-controls="{{site.data.submitted.aria-controls1}}"
+            aria-controls="{{submission.aria-controls1}}"
           >
             Abstract
           </a>
@@ -67,14 +71,14 @@ layout: default
             id="button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="{{site.data.submitted.data-bs-target}}"
+            data-bs-target="{{submission.data-bs-target}}"
             aria-expanded="false"
-            aria-controls="{{site.data.submitted.aria-controls2}}"
+            aria-controls="{{submission.aria-controls2}}"
           >
             BibTeX
           </a>
           <a
-            href="{{site.data.submitted.PDF}}"
+            href="{{submission.PDF}}"
             class="btn btn-outline-secondary"
             id="button"
             type="button"
@@ -84,26 +88,27 @@ layout: default
         <div class="accordion-group">
           <div
             class="collapse"
-            id="{{site.data.submitted.aria-controls1}}"
-            data-bs-parent="{{site.data.submitted.groupId}}"
+            id="{{publication.aria-controls1}}"
+            data-bs-parent="{{submission.groupId}}"
           >
-            <div class="card card-body" id="abstract">
-              <p>{{site.data.submitted.abstract}}</p>
+            <div class="card card-body">
+              <p>{{submission.abstract}}</p>
             </div>
           </div>
           <div
             class="collapse"
-            id="{{site.data.submitted.aria-controls2}}"
-            data-bs-parent="{{site.data.submitted.groupId}}"
+            id="{{submission.aria-controls2}}"
+            data-bs-parent="{{submission.groupId}}"
           >
             <div class="card card-body">
-              <pre>{{site.data.submitted.BibTeX}}</pre>
+              <pre>{{submission.BibTeX}}</pre>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  {% endfor %}
 </div>
 
 <div class="spacer100"></div>

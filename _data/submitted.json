@@ -1,4 +1,35 @@
-[
+[{
+  "label1": "image\\Theoretical.svg",
+  "label2": "image\\experiment.svg",
+  "author": "Aparicio, H., Ronai, E. ",
+  "year": "2023",
+  "title": "<i>Scalar implicatures vary within and across adjectival scales.</i> Proceedings of <i>SALT</i> 33.",
+  "abstract": "",
+  "BibTeX": "",
+  "PDF": "",
+  "group": "myGroup",
+  "groupId": "#myGroup",
+  "ahref": "#Abstract",
+  "aria-controls1": "Abstract",
+  "data-bs-target": "#BibTeX",
+  "aria-controls2": "BibTeX"
+},
+{
+  "label1": "image\\Theoretical.svg",
+  "label2": "image\\experiment.svg",
+  "author": "Nianpo, s., Aparicio, H. ",
+  "year": "",
+  "title": "<i>NPI licensing and intrusion effects in Japanese.</i> Proceedings of the <i>Chicago Linguistic Society.</i>",
+  "abstract": "",
+  "BibTeX": "",
+  "PDF": "",
+  "group": "myGroup",
+  "groupId": "#myGroup",
+  "ahref": "#Abstract",
+  "aria-controls1": "Abstract",
+  "data-bs-target": "#BibTeX",
+  "aria-controls2": "BibTeX"
+},
   {
   "label1": "image\\Theoretical.svg",
   "label2": "image\\experiment.svg",

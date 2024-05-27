@@ -1,4 +1,36 @@
-[
+[{
+  "label1": "image\\Theoretical.svg",
+  "label2": "image\\experiment.svg",
+  "author": "<b>Pecsok, E.</b>, Aparicio, H.",
+  "year": "2024",
+  "title": "<i>How can they both be right?: Faultless disagreement and semantic adaptation.</i> In <i>Proceedings of the Annual Meeting of the Cognitive Science Society.</i>",
+  "abstract": "",
+  "BibTeX": "",
+  "PDF": "",
+  "group": "myGroup",
+  "groupId": "#myGroup",
+  "ahref": "#Abstract",
+  "aria-controls1": "Abstract",
+  "data-bs-target": "#BibTeX",
+  "aria-controls2": "BibTeX"
+},
+{
+  "label1": "image\\Theoretical.svg",
+  "label2": "image\\experiment.svg",
+  "author": "<b>Wu, Y.</b>, Aparicio, H. ",
+  "year": "",
+  "uniqueId": "removeHr",
+  "title": "<i>Disagreements do not automatically update the precision threshold.</i> Proceedings of <i>Experiments in Linguistic Meaning.</i>",
+  "abstract": "",
+  "BibTeX": "",
+  "PDF": "",
+  "group": "myGroup",
+  "groupId": "#myGroup",
+  "ahref": "#Abstract",
+  "aria-controls1": "Abstract",
+  "data-bs-target": "#BibTeX",
+  "aria-controls2": "BibTeX"
+},
   {
   "label1": "image\\Theoretical.svg",
   "label2": "image\\experiment.svg",
